@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { UrlService } from '../services/urlService';
-import type { Logger } from '../../logging-middleware/src/index';
+import type { Logger } from '../../logging-middleware/dist/index';
 
 export function createShortUrlHandler(logger: Logger) {
   const svc = new UrlService(logger);

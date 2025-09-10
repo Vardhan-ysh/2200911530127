@@ -1,1 +1,1 @@
-{"root":["./src/app.ts","./src/controllers/urlcontroller.ts","./src/models/store.ts","./src/routes/urlroutes.ts","./src/services/urlservice.ts","./src/utils/shortcode.ts"],"errors":true,"version":"5.9.2"}
+{"root":["./src/app.ts","./src/controllers/urlcontroller.ts","./src/models/store.ts","./src/routes/urlroutes.ts","./src/services/urlservice.ts","./src/utils/shortcode.ts"],"version":"5.9.2"}

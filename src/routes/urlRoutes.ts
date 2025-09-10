@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { createShortUrlHandler, getStatsHandler } from '../controllers/urlController';
-import type { Logger } from '../../logging-middleware/src/index';
+import type { Logger } from '../../logging-middleware/dist/index';
 
 export default function urlRoutes(logger: Logger) {
   const router = Router();

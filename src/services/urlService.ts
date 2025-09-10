@@ -1,6 +1,6 @@
 import { store, UrlRecord, ClickEvent } from '../models/store';
 import { generateShortcode, isValidShortcode } from '../utils/shortcode';
-import type { Logger } from '../../logging-middleware/src/index';
+import type { Logger } from '../../logging-middleware/dist/index';
 
 export interface CreateReq {
   url: string;
