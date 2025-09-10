@@ -4,9 +4,9 @@
   "description": "HTTP URL Shortener Microservice with reusable logging middleware",
   "private": true,
   "scripts": {
-    "start": "ts-node backend/src/app.ts",
-    "dev": "ts-node backend/src/app.ts",
-    "build": "tsc -b logging-middleware backend/tsconfig.json",
+    "start": "node dist/app.js",
+    "dev": "ts-node src/app.ts",
+    "build": "prisma generate && tsc -b",
     "test": "echo no-tests"
   },
   "dependencies": {
